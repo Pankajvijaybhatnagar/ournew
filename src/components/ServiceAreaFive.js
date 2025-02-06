@@ -10,9 +10,9 @@ const ServiceAreaFive = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section-title text-center">
-                <h6 className="sub-title-sky-blue">Our Best Service</h6>
+                <h6 className="sub-title-sky-blue">Our Best Services</h6>
                 <h2 className="title">
-                  Unlocking The Potential Of Data With Ai
+                  Empowering Businesses with Web, Finance, and News Solutions
                 </h2>
               </div>
             </div>
@@ -27,11 +27,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">AI Consult</Link>
+                    <Link href="/service-details">Website Development</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Building responsive and high-performance websites tailored to your business needs.
                   </p>
                 </div>
               </div>
@@ -43,11 +42,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">Data Mind</Link>
+                    <Link href="/service-details">E-commerce Solutions</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Creating seamless online shopping experiences with secure payment integration.
                   </p>
                 </div>
               </div>
@@ -59,18 +57,17 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">IntelliSense</Link>
+                    <Link href="/service-details">Custom Web Apps</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Developing powerful and scalable web applications for various industries.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none">
               <div className="service-thumb service-middle-section align-self-end">
-                <img src="assets/img/about/22.png" alt="img" />
+                <img src="assets/img/about/pic.jpg" alt="img" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -82,11 +79,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">Neural Solutions</Link>
+                    <Link href="/service-details">Financial Consulting</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Providing expert financial advice to help businesses grow and manage risks.
                   </p>
                 </div>
               </div>
@@ -98,11 +94,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">Wise Logic</Link>
+                    <Link href="/service-details">Investment Strategies</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Helping clients make informed investment decisions with data-driven strategies.
                   </p>
                 </div>
               </div>
@@ -114,11 +109,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className="details">
                   <h5 className="mb-3">
-                    <Link href="/service-details">Smart Vision</Link>
+                    <Link href="/service-details">News & Insights</Link>
                   </h5>
                   <p className="mb-0">
-                    Aliquam eros justo, posuere loborti inh thi viverra coin
-                    design here laoreet min ouimatti posuere lorem
+                    Delivering real-time financial and business news to keep you ahead in the market.
                   </p>
                 </div>
               </div>
