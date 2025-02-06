@@ -23,7 +23,7 @@ const BannerFive = () => {
                   data-aos-delay="100"
                   data-aos-duration="1500"
                 >
-                  Designing for the future
+                  Transforming the Digital Landscape
                 </h6>
                 <h2
                   className="title text-white"
@@ -31,7 +31,7 @@ const BannerFive = () => {
                   data-aos-delay="250"
                   data-aos-duration="1500"
                 >
-                  Empowering Your Business With Artificial
+                  Empowering Businesses with Smart Financial & Digital Solutions
                 </h2>
                 <p
                   className="content pe-xl-4"
@@ -39,8 +39,7 @@ const BannerFive = () => {
                   data-aos-delay="350"
                   data-aos-duration="1500"
                 >
-                  And In Order To Make A Business, Brand Advertising And
-                  Marketing Plays An Important Role. Similarly, In
+                  From cutting-edge website development to powerful digital marketing strategies, we help businesses establish a dominant online presence. Our financial solutions drive sustainable growth, while expert-driven news insights keep you informed and ahead of industry trends.
                 </p>
                 <Link
                   className="btn btn-border-base-2"
@@ -63,7 +62,7 @@ const BannerFive = () => {
                     className="video-play-btn-hover"
                   >
                     <img src="assets/img/video.svg" alt="img" />{' '}
-                    <h6 className="d-inline-block text-white">how we work</h6>
+                    <h6 className="d-inline-block text-white">Our Process</h6>
                   </Link>
 
                   <div></div>
@@ -86,7 +85,7 @@ const BannerFive = () => {
                   <div>
                     <img
                       className="main-img"
-                      src="assets/img/banner-5/1.png"
+                      src="assets/img/banner-5/abc.jpg"
                       alt="img"
                     />
                   </div>
