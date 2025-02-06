@@ -16,14 +16,9 @@ const AboutAreaSix = () => {
                   data-aos-duration="1500"
                 >
                   <img
-                    className="animate-img-4 top_image_bounce z-index-2"
-                    src="assets/img/about/24.png"
-                    alt="img"
-                  />
-                  <img
                     className="main-img"
-                    src="assets/img/about/23.png"
-                    alt="img"
+                    src="assets/img/about/pic2.jpeg"
+                    alt="Company Overview"
                   />
                 </div>
               </div>
@@ -34,17 +29,13 @@ const AboutAreaSix = () => {
                 data-aos-duration="1500"
               >
                 <div className="section-title mt-5 mt-lg-0 mb-0">
-                  <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
-                  <h2 className="title">Innovation Through Is Intelligence</h2>
+                  <h6 className="sub-title-sky-blue">ABOUT OUR COMPANY</h6>
+                  <h2 className="title">Empowering Businesses Through Technology</h2>
                   <p className="content">
-                    Aliquam eros justo, posuere in lobortis non, viverra laoreet
-                    augue. Sed des mattisi fermentum ullamcorper risus
-                    sollicitudin vel. Fusce nec egestas leo mattis oui fermentum
-                    dui.
+                    We specialize in cutting-edge web development, financial solutions, and news platforms, helping businesses thrive in the digital landscape. Our commitment to innovation and excellence drives us to create impactful solutions tailored to your needs.
                   </p>
                   <p className="small-title">
-                    Vestibulum molestie pharetra dictum Integer interdum gravida
-                    urna sed fringilla dolor maximus.
+                    From intuitive website development to strategic financial consulting, we bridge the gap between technology and business success.
                   </p>
                   <div className="row mt-4">
                     <div className="col-md-4">
@@ -53,11 +44,11 @@ const AboutAreaSix = () => {
                           <img
                             className="rotate-img"
                             src="assets/img/about/25.png"
-                            alt="img"
+                            alt="Website Development"
                           />
                         </div>
                         <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
+                          <h6 className="mb-0">Website Development</h6>
                         </div>
                       </div>
                     </div>
@@ -67,11 +58,11 @@ const AboutAreaSix = () => {
                           <img
                             className="rotate-img"
                             src="assets/img/about/26.png"
-                            alt="img"
+                            alt="Financial Consulting"
                           />
                         </div>
                         <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
+                          <h6 className="mb-0">Financial Consulting</h6>
                         </div>
                       </div>
                     </div>
@@ -81,11 +72,11 @@ const AboutAreaSix = () => {
                           <img
                             className="rotate-img"
                             src="assets/img/about/27.png"
-                            alt="img"
+                            alt="News & Insights"
                           />
                         </div>
                         <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
+                          <h6 className="mb-0">News & Insights</h6>
                         </div>
                       </div>
                     </div>
