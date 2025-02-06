@@ -51,10 +51,10 @@ const page = () => {
 
 
       {/* Testimonial Five */}
-      <TestimonialFive />
+      {/* <TestimonialFive /> */}
 
       {/* Blog Area Five */}
-      <BlogAreaFive />
+      {/* <BlogAreaFive /> */}
 
       {/* Footer Four */}
       <FooterFour />

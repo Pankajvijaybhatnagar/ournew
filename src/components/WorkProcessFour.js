@@ -14,7 +14,7 @@ const WorkProcessFour = () => {
               <div className="section-title text-center pb-5">
                 <h6 className="sub-title-sky-blue">WORK PROCESS</h6>
                 <h2 className="title">
-                  Empowering Your Business With Artificial
+                  Streamlining Success in Website Development & Finance
                 </h2>
               </div>
             </div>
@@ -27,10 +27,9 @@ const WorkProcessFour = () => {
                     <img src="assets/img/icon/36.svg" alt="img" />
                   </div>
                   <div className="details">
-                    <h5 className="mb-3">Assessment</h5>
+                    <h5 className="mb-3">Requirement Analysis</h5>
                     <p className="content">
-                      Research ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Understanding client needs to tailor the perfect digital and financial solutions.
                     </p>
                   </div>
                 </div>
@@ -41,10 +40,9 @@ const WorkProcessFour = () => {
                     <img src="assets/img/icon/37.svg" alt="img" />
                   </div>
                   <div className="details">
-                    <h5 className="mb-3">Implementationplanning</h5>
+                    <h5 className="mb-3">Strategic Planning</h5>
                     <p className="content">
-                      Create ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Developing a roadmap for seamless website execution and financial growth.
                     </p>
                   </div>
                 </div>
@@ -55,10 +53,9 @@ const WorkProcessFour = () => {
                     <img src="assets/img/icon/38.svg" alt="img" />
                   </div>
                   <div className="details">
-                    <h5 className="mb-3">Capabilities</h5>
+                    <h5 className="mb-3">Execution & Development</h5>
                     <p className="content">
-                      Develope ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Implementing state-of-the-art technology and financial expertise.
                     </p>
                   </div>
                 </div>
@@ -69,10 +66,9 @@ const WorkProcessFour = () => {
                     <img src="assets/img/icon/39.svg" alt="img" />
                   </div>
                   <div className="details">
-                    <h5 className="mb-3">Innovation</h5>
+                    <h5 className="mb-3">Continuous Innovation</h5>
                     <p className="content">
-                      Shop ipsum dolor sit consec tetur Malesuada sed diam in
-                      the
+                      Enhancing solutions through research, market trends, and cutting-edge technology.
                     </p>
                   </div>
                 </div>
