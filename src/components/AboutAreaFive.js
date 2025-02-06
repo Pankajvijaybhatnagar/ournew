@@ -5,7 +5,7 @@ import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
 const AboutAreaFive = () => {
   return (
     <>
-      {/* =============== About Area Five End ===============*/}
+      {/* =============== About Area Five Start ===============*/}
       <div className="about-area about-area_5 pd-top-120 pd-bottom-120">
         <div className="container">
           <div className="row">
@@ -16,15 +16,15 @@ const AboutAreaFive = () => {
               data-aos-duration="1500"
             >
               <div className="about-thumb-inner">
-                <img
+                {/* <img
                   className="animate-img-3 z-index-2 top_image_bounce"
-                  src="assets/img/about/20.png"
-                  alt="img"
-                />
+                  src="assets/img/about/digital-marketing.png"
+                  alt="Digital Marketing"
+                /> */}
                 <img
                   className="main-img"
-                  src="assets/img/about/21.png"
-                  alt="img"
+                  src="assets/img/about/aa.jpeg"
+                  alt="Financial News"
                 />
               </div>
             </div>
@@ -35,36 +35,33 @@ const AboutAreaFive = () => {
               data-aos-duration="1500"
             >
               <div className="section-title mb-0 ps-xl-5">
-                <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
+                <h6 className="sub-title-sky-blue">ABOUT US</h6>
                 <h2 className="title">
-                  Experience intelligence like never before
+                  Stay Informed. Stay Ahead.
                 </h2>
                 <p className="content mb-4">
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                  We bring you the latest insights on financial trends, digital 
+                  marketing strategies, and business intelligence to help you 
+                  make informed decisions in a rapidly evolving market.
                 </p>
                 <div className="row">
                   <div className="col-md-6">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <FaCheckCircle className="sky" /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className="sky" /> Expert Financial Analysis
                       </li>
                       <li>
-                        <FaCheckCircle className="sky" /> Your Startup industry
-                        stan
+                        <FaCheckCircle className="sky" /> Digital Marketing Insights
                       </li>
                     </ul>
                   </div>
                   <div className="col-md-6">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <FaCheckCircle className="sky" /> Mistakes To Avoid to
-                        the
+                        <FaCheckCircle className="sky" /> Latest Business News
                       </li>
                       <li>
-                        <FaCheckCircle className="sky" /> Your Startup industry
-                        stan
+                        <FaCheckCircle className="sky" /> Strategic Investment Tips
                       </li>
                     </ul>
                   </div>
@@ -73,7 +70,7 @@ const AboutAreaFive = () => {
                   className="btn btn-base-color border-radius-5"
                   href="/about"
                 >
-                  Discover More <FaArrowRight />
+                  Learn More <FaArrowRight />
                 </Link>
               </div>
             </div>
