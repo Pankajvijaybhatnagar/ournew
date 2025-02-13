@@ -390,7 +390,7 @@
         margin-right: 14px;
         color: var(--main-color);
         &.sky {
-          color: #50af9b;
+          color: #FF9908;
         }
       }
       &:last-child {
@@ -421,8 +421,8 @@
         }
         &.sky {
           &:hover {
-            background: #50af9b;
-            border: 1px solid #50af9b;
+            background: #FF9908;
+            border: 1px solid #FF9908;
             svg {
               color: #fff !important;
             }

@@ -79,7 +79,7 @@ const NavbarFive = () => {
           <div className=" col-lg-2 col-xl-3 align-self-center">
             <div className="logo">
               <Link href="/index-1">
-                <img src="assets/img/logo2.png" alt="img" />
+                <img src="assets/img/logo.png" alt="img" />
               </Link>
             </div>
           </div>

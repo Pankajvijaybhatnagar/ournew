@@ -116,7 +116,7 @@
   &:hover,
   &:focus {
     color: #fff !important;
-    background: #50af9b;
+    background: #FF9908;
   }
 }
 .btn-border-base {
@@ -146,11 +146,11 @@
 }
 
 .btn-border-base-2 {
-  color: #50af9b;
-  border: 2px solid#50AF9B;
+  color: #FF9908;
+  border: 2px solid#FF9908;
   line-height: 52px;
   &:after {
-    background: #50af9b;
+    background: #FF9908;
   }
   &:hover,
   &:focus {
@@ -211,7 +211,7 @@
 
 .btn-base-color {
   color: #fff !important;
-  background: #50af9b;
+  background: #FF9908;
 }
 
 .read-more-text {
@@ -689,7 +689,7 @@
       transition: 0.4s;
       box-shadow: none;
       color: #fff;
-      border: 1px solid #50af9b;
+      border: 1px solid #FF9908;
       padding: 9px;
       cursor: pointer;
       font-size: 18px;
@@ -698,7 +698,7 @@
       right: 0;
       top: -95px;
       &:hover {
-        background: #50af9b;
+        background: #FF9908;
         color: #fff;
       }
     }
@@ -713,7 +713,7 @@
       transition: 0.4s;
       box-shadow: none;
       color: #fff;
-      border: 1px solid #50af9b;
+      border: 1px solid #FF9908;
       padding: 9px;
       cursor: pointer;
       font-size: 18px;
@@ -723,7 +723,7 @@
       top: -95px;
       right: 60px;
       &:hover {
-        background: #50af9b;
+        background: #FF9908;
         color: #fff;
       }
     }
@@ -829,7 +829,7 @@
         font-size: 18px;
       }
       .sky {
-        color: #50af9b;
+        color: #FF9908;
       }
     }
   }
@@ -862,7 +862,7 @@
   background: var(--main-color);
 }
 .bg-base-2 {
-  background: #50af9b !important;
+  background: #FF9908 !important;
 }
 .bg-green {
   background: #1dc295;

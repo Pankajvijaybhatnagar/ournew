@@ -83,7 +83,7 @@ const NavbarFour = () => {
           </div>
           <div className="logo">
             <Link href="/index-1">
-              <img src="assets/img/logo3.png" alt="img" />
+              <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">

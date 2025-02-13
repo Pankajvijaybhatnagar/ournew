@@ -525,19 +525,19 @@
   li {
     &:hover {
       & > a {
-        color: #50af9b !important;
+        color: #FF9908 !important;
       }
     }
     &:hover:before {
-      background: #50af9b !important;
+      background: #FF9908 !important;
     }
     &:hover::after {
-      background: #50af9b !important;
+      background: #FF9908 !important;
     }
     .sub-menu {
       li {
         &:hover {
-          background: #50af9b !important;
+          background: #FF9908 !important;
           & > a {
             color: #fff !important;
           }
