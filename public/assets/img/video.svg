@@ -2,7 +2,7 @@
 <g filter="url(#filter0_dd_24_10)">
 <rect x="19" y="14" width="50" height="50" rx="25" fill="white"/>
 </g>
-<path d="M53 39L39.5 46.7942L39.5 31.2058L53 39Z" fill="#246BFD"/>
+<path d="M53 39L39.5 46.7942L39.5 31.2058L53 39Z" fill="#ff9908"/>
 <defs>
 <filter id="filter0_dd_24_10" x="0.6" y="0.400001" width="86.8" height="86.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

@@ -5,6 +5,8 @@ import CounterAreaOne from "@/components/CounterAreaOne";
 import FaqAreaOne from "@/components/FaqAreaOne";
 import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
+import NavbarFour from "@/components/NavbarFour";
+import NavbarThree from "@/components/NavbarThree";
 import ServiceAreaOne from "@/components/ServiceAreaOne";
 import TeamAreaOne from "@/components/TeamAreaOne";
 import WorkProcessOne from "@/components/WorkProcessOne";
@@ -23,7 +25,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarThree />
 
       {/* Navigation Bar */}
       <Breadcrumb title={'About Us'} />

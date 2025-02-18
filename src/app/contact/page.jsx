@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ContactMain from "@/components/ContactMain";
 import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
+import NavbarThree from "@/components/NavbarThree";
 
 
 
@@ -18,7 +19,7 @@ const page = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarThree />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"Contact"} />

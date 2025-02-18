@@ -82,7 +82,7 @@ const NavbarFour = () => {
             </button>
           </div>
           <div className="logo">
-            <Link href="/index-1">
+            <Link href="/">
               <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>
@@ -101,8 +101,8 @@ const NavbarFour = () => {
           >
             <ul className="navbar-nav menu-open text-lg-center ps-lg-5 navbarFive">
               <li className="menu-item-has-children">
-                <Link href="#">Home</Link>
-                <ul className="sub-menu">
+                <Link href="/">Home</Link>
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/index-1">IT / Softwer Agency</Link>
                   </li>
@@ -136,11 +136,11 @@ const NavbarFour = () => {
                   <li>
                     <Link href="/index-11">SEO Service</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="menu-item-has-children">
-                <Link href="#">Service</Link>
-                <ul className="sub-menu">
+                <Link href="/service">Service</Link>
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/service">Service 01</Link>
                   </li>
@@ -159,7 +159,7 @@ const NavbarFour = () => {
                   <li>
                     <Link href="/service-details">Service Single</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className="menu-item-has-children">
                 <Link href="#">Pages</Link>
@@ -189,7 +189,7 @@ const NavbarFour = () => {
               </li>
               <li className="menu-item-has-children mega-menu">
                 <Link href="#">Mega Menu</Link>
-                <div className="sub-menu">
+                {/* <div className="sub-menu">
                   <div className="row">
                     <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
@@ -292,12 +292,12 @@ const NavbarFour = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </li>
 
               <li className="menu-item-has-children">
                 <Link href="#">Blog</Link>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -313,7 +313,7 @@ const NavbarFour = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link href="/contact">Contact Us</Link>
