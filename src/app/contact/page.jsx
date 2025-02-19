@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import ContactMain from "@/components/ContactMain";
+import FooterFive from "@/components/FooterFive";
 import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
 import NavbarThree from "@/components/NavbarThree";
@@ -28,7 +29,7 @@ const page = () => {
       <ContactMain />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFive />
 
     </>
   );
