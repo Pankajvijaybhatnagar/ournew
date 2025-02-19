@@ -189,9 +189,9 @@ const NavbarThree = () => {
                   </li>
                 </ul> */}
               </li>
-              <li className="menu-item-has-children mega-menu">
+              {/* <li className="menu-item-has-children mega-menu">
                 <Link href="#">Mega Menu</Link>
-                {/* <div className="sub-menu">
+                <div className="sub-menu">
                   <div className="row">
                     <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
@@ -294,8 +294,8 @@ const NavbarThree = () => {
                       </ul>
                     </div>
                   </div>
-                </div> */}
-              </li>
+                </div>
+              </li> */}
 
               <li className="">
                 <Link href="#">Blog</Link>
