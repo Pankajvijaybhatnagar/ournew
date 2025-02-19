@@ -16,7 +16,7 @@ const ServiceAreaFour = () => {
               <div className='section-title text-center'>
                 <h6 className='sub-title'>WHAT WE OFFER</h6>
                 <h2 className='title'>
-                  It <span>Service</span> Refers To The Provision Of Support
+                  Elevating Businesses with <span>Innovative Solutions</span>
                 </h2>
               </div>
             </div>
@@ -30,8 +30,7 @@ const ServiceAreaFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Web Development</h5>
                   <p className='content mb-3'>
-                    Research ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    Crafting dynamic, responsive, and high-performing websites tailored to your business needs.
                   </p>
                   <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
@@ -47,8 +46,7 @@ const ServiceAreaFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Big Data Analytics</h5>
                   <p className='content mb-3'>
-                    Create ipsum dolor sit consec tetur sed diam in the aliquam
-                    tempor
+                    Unlock valuable insights with data-driven strategies to enhance business growth and efficiency.
                   </p>
                   <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
@@ -62,10 +60,9 @@ const ServiceAreaFour = () => {
                   <img src='assets/img/icon/17.svg' alt='img' />
                 </div>
                 <div className='details'>
-                  <h5 className='mb-3'>Cyber security</h5>
+                  <h5 className='mb-3'>Websecurity</h5>
                   <p className='content mb-3'>
-                    Develope ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    Providing robust security solutions to safeguard your digital assets from evolving threats.
                   </p>
                   <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
@@ -79,10 +76,9 @@ const ServiceAreaFour = () => {
                   <img src='assets/img/icon/20.svg' alt='img' />
                 </div>
                 <div className='details'>
-                  <h5 className='mb-3'>Mobile App</h5>
+                  <h5 className='mb-3'>Mobile App Development</h5>
                   <p className='content mb-3'>
-                    Shop ipsum dolor sit consec tetur Malesuada sed diam in the
-                    aliquam tempor
+                    Creating seamless and engaging mobile applications to enhance user experiences and business reach.
                   </p>
                   <Link className='read-more-text' href='/service-details'>
                     Read More <FaArrowRight />
@@ -98,5 +94,6 @@ const ServiceAreaFour = () => {
     </>
   );
 };
+
 
 export default ServiceAreaFour;

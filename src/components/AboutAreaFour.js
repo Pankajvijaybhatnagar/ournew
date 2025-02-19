@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AboutAreaFour = () => {
   return (
     <>
@@ -35,13 +33,13 @@ const AboutAreaFour = () => {
               <div className="section-title mt-5 mt-lg-0">
                 <h6 className="sub-title">ABOUT US</h6>
                 <h2 className="title">
-                  Transforming Businesses Through <span>Software</span>{' '}
-                  Innovation
+                  Empowering Businesses with <span>Technology & Innovation</span>
                 </h2>
                 <p className="content mb-4 mb-xl-5">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  At Digi1Xprt, we specialize in cutting-edge software development, 
+                  digital marketing, and financial solutions. Our expertise helps 
+                  businesses thrive in the digital era with scalable technology and 
+                  data-driven marketing strategies.
                 </p>
                 <div className="media box-shadow p-3 border-radius-5 mb-3">
                   <div className="media-left me-3">
@@ -49,7 +47,7 @@ const AboutAreaFour = () => {
                   </div>
                   <div className="media-body">
                     <div className="single-progressbar">
-                      <h6>Web Development</h6>
+                      <h6>Software Development</h6>
                       <div className="skill">
                         <div
                           style={{ width: '90%' }}
@@ -68,7 +66,7 @@ const AboutAreaFour = () => {
                   </div>
                   <div className="media-body">
                     <div className="single-progressbar">
-                      <h6>Cloud Solutions</h6>
+                      <h6>Digital Marketing & Finance</h6>
                       <div className="skill">
                         <div
                           style={{ width: '80%' }}
