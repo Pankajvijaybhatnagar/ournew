@@ -93,7 +93,7 @@ const BannerTwo = () => {
           />
           <img
             className="banner-animate-img banner-animate-img-3 top_image_bounce"
-            src="assets/img/banner-2/2.png"
+            src="assets/img/banner-2/2.gif"
             alt="img"
           />
           <img

@@ -21,7 +21,7 @@ const AboutAreaFour = () => {
                 />
                 <img
                   className="main-img m-md-4"
-                  src="assets/img/about/13.png"
+                  src="assets/img/about/13.jpg"
                   alt="img"
                 />
               </div>
