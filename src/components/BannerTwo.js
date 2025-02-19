@@ -58,7 +58,7 @@ const BannerTwo = () => {
           data-aos-duration="1500"
         >
           <span
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen(false)}
             className="video-play-btn-hover"
           >
             <img src="assets/img/video.svg" alt="img" />{' '}
