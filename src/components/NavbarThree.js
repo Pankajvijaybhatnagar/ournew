@@ -102,7 +102,7 @@ const NavbarThree = () => {
             id="itech_main_menu"
           >
             <ul className="navbar-nav menu-open text-lg-end">
-              <li className="menu-item-has-children">
+              <li className="">
                 <Link href="/">Home</Link>
                 {/* <ul className="sub-menu">
                   <li>
@@ -140,7 +140,7 @@ const NavbarThree = () => {
                   </li>
                 </ul> */}
               </li>
-              <li className="menu-item-has-children">
+              <li className="">
                 <Link href="/service">Service</Link>
                 {/* <ul className="sub-menu">
                   <li>
@@ -163,7 +163,7 @@ const NavbarThree = () => {
                   </li>
                 </ul> */}
               </li>
-              <li className="menu-item-has-children">
+              <li className="">
                 <Link href="/about">About us</Link>
                 {/* <ul className="sub-menu">
                   <li>
@@ -297,7 +297,7 @@ const NavbarThree = () => {
                 </div> */}
               </li>
 
-              <li className="menu-item-has-children">
+              <li className="">
                 <Link href="#">Blog</Link>
                 {/* <ul className="sub-menu">
                   <li>
