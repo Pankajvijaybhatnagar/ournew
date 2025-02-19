@@ -51,13 +51,13 @@ const FooterFive = () => {
                     <img src="assets/img/home-6/20.png" alt="img" />
                   </div>
                   <div className="media-body">
-                    <h5 className="text-white">Contacts Us</h5>
+                    <h5 className="text-white">Contact Us</h5>
                     <p className="text-white mb-0">
                     Registered office :21/44 BASEMENT OLD RAJENDER NAGAR  <br /> Delhi, India - 110060
                     </p>
                     <br></br>
                     <p className="text-white mb-0">
-                    Collaboration with : SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh <br /> Zirakpur, Panchkula, Haryana 134109 
+                    Collaboration with : SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh(Digital Orra) <br /> Zirakpur, Panchkula, Haryana 134109 
                     </p>
                   </div>
                 </div>
