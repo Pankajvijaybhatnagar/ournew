@@ -25,11 +25,11 @@ const FooterFive = () => {
                   <div className="media-body">
                     <h5 className="text-white">Contacts Info</h5>
                     <p className="text-white mb-0">
-                      willie.jennings@example.com
+                    digi1xprtofficial@gmail.com
                     </p>
-                    <p className="text-white mb-0">
+                    {/* <p className="text-white mb-0">
                       willie.jennings@example.com
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const FooterFive = () => {
                   <div className="media-body">
                     <h5 className="text-white">Opening Hour</h5>
                     <p className="text-white mb-0">Mon-Fri: 9:30AM - 6:30PM</p>
-                    <p className="text-white mb-0">Sat-Sun: 1:30AM - 3:30PM</p>
+                    <p className="text-white mb-0">Sat-Sun: off (only business enquiry open )</p>
                   </div>
                 </div>
               </div>
@@ -53,7 +53,11 @@ const FooterFive = () => {
                   <div className="media-body">
                     <h5 className="text-white">Contacts Info</h5>
                     <p className="text-white mb-0">
-                      2715 Ash Dr. San Jose, South <br /> Dakota 83475
+                    21/44 BASEMENT OLD RAJENDER NAGAR  <br /> Delhi, India - 110060
+                    </p>
+                    <br></br>
+                    <p className="text-white mb-0">
+                    SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh <br /> Zirakpur, Panchkula, Haryana 134109 
                     </p>
                   </div>
                 </div>
@@ -64,11 +68,11 @@ const FooterFive = () => {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div className="widget widget_about">
                 <div className="thumb">
-                  <img src="assets/img/logo2.png" alt="img" />
+                  <img src="assets/img/logo1.png" alt="img" />
                 </div>
                 <div className="details">
                   <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
+                  SCO 21 & 22, Ekta Complex, Adjoining Vishal Mega Mart,, Pipli Rd, Kurukshetra, Haryana 136118
                   </p>
                   <div className="subscribe mt-4">
                     <input
@@ -165,7 +169,7 @@ const FooterFive = () => {
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaChevronRight /> Pc Repairs
+                      <FaChevronRight /> Finance
                     </Link>
                   </li>
                   <li>
@@ -182,13 +186,13 @@ const FooterFive = () => {
                 <ul>
                   <li>
                     <div className="media">
-                      <div className="media-left">
+                      {/* <div className="media-left">
                         <img src="assets/img/widget/1.png" alt="blog" />
-                      </div>
+                      </div> */}
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>january 11, 2025</span>
                         </div>
                         <h6 className="title mb-0">
                           <Link href="/blog-details">
@@ -200,17 +204,17 @@ const FooterFive = () => {
                   </li>
                   <li>
                     <div className="media">
-                      <div className="media-left">
+                      {/* <div className="media-left">
                         <img src="assets/img/widget/2.png" alt="blog" />
-                      </div>
+                      </div> */}
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
                           <FaCalendarAlt />
-                          <span>january 11, 2023</span>
+                          <span>january 19, 2025</span>
                         </div>
                         <h6 className="title mb-0">
                           <Link href="/blog-details">
-                            Marketing For Base market watch
+                             Nifty is going to make lower circuit (market watch)
                           </Link>
                         </h6>
                       </div>
@@ -225,7 +229,7 @@ const FooterFive = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
+                <p>© digi1xprt 2025 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
                 <Link href="#">Trams &amp; Condition</Link>
