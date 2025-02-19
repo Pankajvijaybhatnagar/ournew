@@ -51,13 +51,13 @@ const FooterFive = () => {
                     <img src="assets/img/home-6/20.png" alt="img" />
                   </div>
                   <div className="media-body">
-                    <h5 className="text-white">Contacts Info</h5>
+                    <h5 className="text-white">Contacts Us</h5>
                     <p className="text-white mb-0">
-                    21/44 BASEMENT OLD RAJENDER NAGAR  <br /> Delhi, India - 110060
+                    Registered office :21/44 BASEMENT OLD RAJENDER NAGAR  <br /> Delhi, India - 110060
                     </p>
                     <br></br>
                     <p className="text-white mb-0">
-                    SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh <br /> Zirakpur, Panchkula, Haryana 134109 
+                    Collaboration with : SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh <br /> Zirakpur, Panchkula, Haryana 134109 
                     </p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const FooterFive = () => {
                 </div>
                 <div className="details">
                   <p>
-                  SCO 21 & 22, Ekta Complex, Adjoining Vishal Mega Mart,, Pipli Rd, Kurukshetra, Haryana 136118
+                  Regional office : SCO 21 & 22, Ekta Complex, Adjoining Vishal Mega Mart,, Pipli Rd, Kurukshetra, Haryana 136118
                   </p>
                   <div className="subscribe mt-4">
                     <input
