@@ -23,7 +23,7 @@ const AboutAreaSeven = () => {
               </div>
             </div>
             <div
-              className="col-lg-6 align-self-center   "
+              className="col-lg-6 align-self-center"
               data-aos="fade-left"
               data-aos-delay="100"
               data-aos-duration="1500"
@@ -31,12 +31,10 @@ const AboutAreaSeven = () => {
               <div className="section-title mt-5 mt-lg-0 mb-0 ps-lg-4">
                 <h6 className="bg-none color-base mb-3">ABOUT US</h6>
                 <h2 className="title">
-                  Preventing Cyber Attacks Before They Happen
+                  Securing Your Digital Future with Advanced Solutions
                 </h2>
                 <p className="content mb-4">
-                  Preventing Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  At Digi1Xprt, we specialize in proactive cybersecurity measures, ensuring businesses stay ahead of potential threats. Our expertise in security protocols and risk management helps prevent cyber attacks before they happen.
                 </p>
                 <div className="row">
                   <div className="col-md-3">
@@ -45,29 +43,29 @@ const AboutAreaSeven = () => {
                   <div className="col-md-9 align-self-center">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> Identifying vulnerabilities before exploitation
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Implementing advanced security solutions
                       </li>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> Enhancing data protection and privacy
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Providing continuous threat monitoring
                       </li>
                     </ul>
                   </div>
                 </div>
                 <p className="mt-4 mb-4">
                   <strong>
-                    Cyber dummy text of the printing and industry Loreaim
+                    Protect your business with cutting-edge websecurity strategies.
                   </strong>
                 </p>
                 <Link className="btn btn-base mt-0 me-3" href="#">
                   Explore Now
                 </Link>
-                <img src="assets/img/about/33.png" alt="img" />
+                {/* <img src="assets/img/about/33.png" alt="img" /> */}
               </div>
             </div>
           </div>
@@ -78,5 +76,6 @@ const AboutAreaSeven = () => {
     </>
   );
 };
+
 
 export default AboutAreaSeven;
