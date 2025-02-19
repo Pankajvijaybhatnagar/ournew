@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import FooterFive from "@/components/FooterFive";
 import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
 import NavbarThree from "@/components/NavbarThree";
@@ -29,10 +30,10 @@ const page = () => {
       <ServiceAreaGroup />
 
       {/* Pricing Area One */}
-      <PricingAreaOne />
+      {/* <PricingAreaOne /> */}
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFive />
 
     </>
   );

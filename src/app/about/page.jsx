@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import ContactAreaOne from "@/components/ContactAreaOne";
 import CounterAreaOne from "@/components/CounterAreaOne";
 import FaqAreaOne from "@/components/FaqAreaOne";
+import FooterFive from "@/components/FooterFive";
 import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
 import NavbarFour from "@/components/NavbarFour";
@@ -52,7 +53,7 @@ const page = () => {
       <WorkProcessOne />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFive />
 
     </>
   );

@@ -13,6 +13,8 @@ import BannerTwo from "@/components/BannerTwo";
 import BlogAreaFive from "@/components/BlogAreaFive";
 import BlogAreaSeven from "@/components/BlogAreaSeven";
 import CaseStudyAreaTwo from "@/components/CaseStudyAreaTwo";
+import FooterEight from "@/components/FooterEight";
+import FooterFive from "@/components/FooterFive";
 import FooterFour from "@/components/FooterFour";
 import NavbarFive from "@/components/NavbarFive";
 import NavbarFour from "@/components/NavbarFour";
@@ -82,7 +84,7 @@ const page = () => {
       <BlogAreaFive/>
 
       {/* Footer Four */}
-      <FooterFour />
+      <FooterFive />
 
 
     </>

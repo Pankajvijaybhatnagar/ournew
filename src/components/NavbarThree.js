@@ -297,9 +297,9 @@ const NavbarThree = () => {
                 </div>
               </li> */}
 
-              <li className="">
+              {/* <li className="">
                 <Link href="#">Blog</Link>
-                {/* <ul className="sub-menu">
+                <ul className="sub-menu">
                   <li>
                     <Link href="/blog">Blog 01</Link>
                   </li>
@@ -315,8 +315,8 @@ const NavbarThree = () => {
                   <li>
                     <Link href="/blog-details">Blog Details</Link>
                   </li>
-                </ul> */}
-              </li>
+                </ul>
+              </li> */}
               <li>
                 <Link href="/contact">Contact Us</Link>
               </li>

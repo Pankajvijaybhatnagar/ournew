@@ -11,7 +11,7 @@ const WorkProcessSeven = () => {
               <div className="section-title text-center">
                 <h6 className="bg-none color-base mb-3">OUR SIMPLE PROCESS</h6>
                 <h2 className="title">
-                  Some of our Finished Projects That will Amaze Your Industry
+                  How Digi1Xprt Transforms Your Business Digitally
                 </h2>
               </div>
             </div>
@@ -20,14 +20,13 @@ const WorkProcessSeven = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-work-process-inner-5 text-center">
                 <div className="thumb block mb-3">
-                  <img src="assets/img/home-7/7.png" alt="img" />
+                  <img src="assets/img/home-7/8.png" alt="Strategy" />
                   <p className="process-count">01</p>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">Complete Online Form</h5>
+                  <h5 className="mb-3">Strategic Planning</h5>
                   <p className="content">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{' '}
+                    We analyze your business needs and create a customized strategy for web development, finance, or digital marketing.
                   </p>
                 </div>
               </div>
@@ -35,14 +34,13 @@ const WorkProcessSeven = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-work-process-inner-5 text-center">
                 <div className="thumb block mb-3">
-                  <img src="assets/img/home-7/8.png" alt="img" />
+                  <img src="assets/img/home-7/9.png" alt="Development" />
                   <p className="process-count">02</p>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">Documents &amp; Payments</h5>
+                  <h5 className="mb-3">Implementation & Development</h5>
                   <p className="content">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{' '}
+                    Our team builds high-performing websites, manages financial solutions, and executes powerful digital marketing campaigns.
                   </p>
                 </div>
               </div>
@@ -50,14 +48,13 @@ const WorkProcessSeven = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-work-process-inner-5 text-center">
                 <div className="thumb block mb-3">
-                  <img src="assets/img/home-7/9.png" alt="img" />
+                  <img src="assets/img/home-7/7.png" alt="Success" />
                   <p className="process-count">03</p>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">Receive Your Visa</h5>
+                  <h5 className="mb-3">Growth & Success</h5>
                   <p className="content">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{' '}
+                    We ensure continuous improvement, track performance, and help your business scale efficiently in the digital landscape.
                   </p>
                 </div>
               </div>
@@ -65,8 +62,7 @@ const WorkProcessSeven = () => {
           </div>
         </div>
       </div>
-
-      {/* ==================== Work Process Three end ====================*/}
+      {/* ==================== Work Process End ====================*/}
     </>
   );
 };

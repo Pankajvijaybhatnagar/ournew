@@ -1,132 +1,70 @@
-import Link from 'next/link';
 import React from 'react';
-import { FaCalendarAlt, FaPlus } from 'react-icons/fa';
-const BlogAreaFive = () => {
+
+const WorkProcessSeven = () => {
   return (
     <>
-      {/*===================== Blog Area Three start =====================*/}
-      <div className="blog-area pd-top-120 pd-bottom-90">
+      {/*==================== Work Process start ====================*/}
+      <div className="work-process-area pd-top-120">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-8">
+            <div className="col-xl-7 col-lg-8">
               <div className="section-title text-center">
-                <h6 className="sub-title-sky-blue">RECENT BLOG</h6>
+                <h6 className="bg-none color-base mb-3">OUR SIMPLE PROCESS</h6>
                 <h2 className="title">
-                  Discover a World of Sustainable Alternatives
+                  How Digi1Xprt Leverages Cutting-Edge Technologies
                 </h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
-              <div className="single-blog-list style-3">
-                <div className="thumb">
-                  <img src="assets/img/blog/4.png" alt="img" />
+              <div className="single-work-process-inner-2 text-center">
+                <div className="thumb block mb-3">
+                  <img src="assets/img/blog/c.jpeg " alt="DeepSea AI" />
+                  <p className="process-count">01</p>
                 </div>
                 <div className="details">
-                  <ul className="blog-meta">
-                    <li>
-                      <span>
-                        <img src="assets/img/testimonial/1.png" alt="img" />
-                      </span>{' '}
-                      Admin
-                    </li>
-                    <li>
-                      <FaCalendarAlt /> Category
-                    </li>
-                  </ul>
-                  <h5 className="mb-3">
-                    <Link href="/blog-details">
-                      Transforming businesses, one pixel at a time
-                    </Link>
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit consectetur Malesuada sed diam in the
-                    aliquam
+                  <h5 className="mb-3">DeepSea AI Integration</h5>
+                  <p className="content">
+                    We incorporate AI-driven solutions like DeepSea AI to optimize digital marketing, enhance financial analytics, and improve user engagement.
                   </p>
-                  <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" href="/blog-details">
-                      Read More <FaPlus />
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="single-blog-list style-3">
-                <div className="thumb">
-                  <img src="assets/img/blog/5.png" alt="img" />
+              <div className="single-work-process-inner-1 text-center">
+                <div className="thumb block mb-3">
+                  <img src="assets/img/blog/a.jpeg" alt="Blockchain" />
+                  <p className="process-count"></p>
                 </div>
                 <div className="details">
-                  <ul className="blog-meta">
-                    <li>
-                      <span>
-                        <img src="assets/img/testimonial/1.png" alt="img" />
-                      </span>{' '}
-                      Admin
-                    </li>
-                    <li>
-                      <FaCalendarAlt /> Category
-                    </li>
-                  </ul>
-                  <h5 className="mb-3">
-                    <Link href="/blog-details">
-                      The Importance of a Strong Digital for Strategy
-                    </Link>
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit consectetur Malesuada sed diam in the
-                    aliquam
+                  <h5 className="mb-3">Blockchain Technology</h5>
+                  <p className="content">
+                    Secure financial transactions and ensure transparency with blockchain-based solutions tailored for businesses in the digital era.
                   </p>
-                  <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" href="/blog-details">
-                      Read More <FaPlus />
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="single-blog-list style-3">
-                <div className="thumb">
-                  <img src="assets/img/blog/6.png" alt="img" />
+              <div className="single-work-process-inner-2 text-center">
+                <div className="thumb block mb-3">
+                  <img src="assets/img/blog/b.jpeg" alt="IoT Solutions" />
+                  <p className="process-count">03</p>
                 </div>
                 <div className="details">
-                  <ul className="blog-meta">
-                    <li>
-                      <span>
-                        <img src="assets/img/testimonial/1.png" alt="img" />
-                      </span>{' '}
-                      Admin
-                    </li>
-                    <li>
-                      <FaCalendarAlt /> Category
-                    </li>
-                  </ul>
-                  <h5 className="mb-3">
-                    <Link href="/blog-details">
-                      Creating Engaging Content: A Guide for Digital
-                    </Link>
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit consectetur Malesuada sed diam in the
-                    aliquam
+                  <h5 className="mb-3">IoT-Powered Automation</h5>
+                  <p className="content">
+                    Leverage IoT to streamline business operations, enhance data collection, and drive efficiency in various industries.
                   </p>
-                  <div className="btn-wrap text-end pe-2">
-                    <Link className="read-more-text" href="/blog-details">
-                      Read More <FaPlus />
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* ===================== BlogAreaFive End =====================*/}
+      {/* ==================== Work Process End ====================*/}
     </>
   );
 };
 
-export default BlogAreaFive;
+export default WorkProcessSeven;
