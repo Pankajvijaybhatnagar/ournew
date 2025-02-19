@@ -17,6 +17,7 @@ import FooterFour from "@/components/FooterFour";
 import NavbarFive from "@/components/NavbarFive";
 import NavbarFour from "@/components/NavbarFour";
 import NavbarThree from "@/components/NavbarThree";
+import OurClients from "@/components/OurClients";
 import ServiceAreaEight from "@/components/ServiceAreaEight";
 import ServiceAreaFive from "@/components/ServiceAreaFive";
 import ServiceAreaFour from "@/components/ServiceAreaFour";
@@ -65,8 +66,10 @@ const page = () => {
       {/* About Area Six */}
       <AboutAreaSeven/>
 
+      <OurClients/>
+
       {/* Team Area Three */}
-      <TeamAreaFive />
+      {/* <TeamAreaFive /> */}
 
       {/* Work Process Four */}
       <WorkProcessSeven />
