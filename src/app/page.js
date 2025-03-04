@@ -68,7 +68,11 @@ const page = () => {
       {/* About Area Six */}
       <AboutAreaSeven/>
 
+<<<<<<< HEAD
       {/* <OurClients/> */}
+=======
+      
+>>>>>>> f7c90808a24335b208c575f75e355406eb6fbcfc
 
       {/* Team Area Three */}
       <TeamAreaFive />
