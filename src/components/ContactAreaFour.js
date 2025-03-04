@@ -17,13 +17,8 @@ const ContactAreaFour = () => {
             >
               <div className="about-thumb-inner ms-xl-5 p-xl-5 pt-4 ">
                 <img
-                  className="animate-main-img"
-                  src="assets/img/about/18.png"
-                  alt="img"
-                />
-                <img
                   className="main-img m-4"
-                  src="assets/img/about/19.png"
+                  src="assets/img/about/19.gif"
                   alt="img"
                 />
               </div>
@@ -37,32 +32,33 @@ const ContactAreaFour = () => {
               <div className="section-title mb-0 mt-5 mt-lg-0">
                 <h6 className="sub-title">GET IN TOUCH</h6>
                 <h2 className="title">
-                  Your Business To <span>Growth</span> Please Touch ?
+                  Take Your Business <span>to New Heights</span> with Us!
                 </h2>
                 <p className="content">
-                  For your car we will do everything advice design in us repairs
-                  and maintenance. We are the some preferred.
+                  Looking for expert digital marketing or software development solutions?  
+                  Our team at Digi1Xprt is here to help you grow and achieve success.  
+                  Reach out to us today!
                 </p>
                 <form className="mt-4">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Name Here" />
+                        <input type="text" placeholder="Your Name" />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Contact Here" />
+                        <input type="text" placeholder="Your Contact Number" />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Email Here" />
+                        <input type="text" placeholder="Your Email Address" />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <textarea placeholder="Message" defaultValue={''} />
+                        <textarea placeholder="How can we help you?" defaultValue={''} />
                       </div>
                     </div>
                     <div className="col-12">

@@ -10,9 +10,9 @@ import NavbarThree from "@/components/NavbarThree";
 
 
 export const metadata = {
-  title: "Contact || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: "Digi1xprt - IT Solutions & Technology",
   description:
-    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+    "Digi1xprt provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
 };
 
 

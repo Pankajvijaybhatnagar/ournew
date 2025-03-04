@@ -1,7 +1,7 @@
 import AboutAreaOne from "@/components/AboutAreaOne";
 import Breadcrumb from "@/components/Breadcrumb";
 import ContactAreaOne from "@/components/ContactAreaOne";
-import CounterAreaOne from "@/components/CounterAreaOne";
+import CounterAreaThree from "@/components/CounterAreaThree";
 import FaqAreaOne from "@/components/FaqAreaOne";
 import FooterFive from "@/components/FooterFive";
 import FooterOne from "@/components/FooterOne";
@@ -11,16 +11,17 @@ import NavbarThree from "@/components/NavbarThree";
 import ServiceAreaOne from "@/components/ServiceAreaOne";
 import TeamAreaOne from "@/components/TeamAreaOne";
 import WorkProcessOne from "@/components/WorkProcessOne";
+import ContactAreaFour from "@/components/ContactAreaFour";
+import CounterAreaFive from "@/components/CounterAreaFive";
 
 
 
 
 export const metadata = {
-  title: "About || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: "Digi1xprt - IT Solutions & Technology",
   description:
-    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+    "Digi1xprt provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
 };
-
 
 const page = () => {
   return (
@@ -41,13 +42,13 @@ const page = () => {
       <FaqAreaOne />
 
       {/* Team Area One */}
-      <TeamAreaOne />
+      {/* <TeamAreaOne /> */}
 
       {/* Counter Area One */}
-      <CounterAreaOne />
+      <CounterAreaThree />
 
       {/* Contact Area One */}
-      <ContactAreaOne />
+      <ContactAreaFour />
 
       {/* Work Process One */}
       <WorkProcessOne />

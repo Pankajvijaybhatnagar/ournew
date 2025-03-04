@@ -19,12 +19,7 @@ const FaqAreaOne = () => {
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
-                  src='assets/img/about/4.png'
-                  alt='img'
-                />
-                <img
-                  className='animate-img-bottom-right top_image_bounce'
-                  src='assets/img/about/5.png'
+                  src='assets/img/about/4.gif'
                   alt='img'
                 />
               </div>
@@ -41,9 +36,10 @@ const FaqAreaOne = () => {
                   Creating <span>Digital</span> Masterpieces
                 </h2>
                 <p className='content'>
-                  It is a long established fact that a reader will be distr
-                  acted bioiiy the end gail designa readable content of a page
-                  when looking.
+                  At Digi1Xprt, we are committed to delivering innovative digital  
+                  marketing and software solutions that help businesses thrive in  
+                  the digital world. Below are some frequently asked questions about  
+                  our services.
                 </p>
               </div>
               <div
@@ -70,9 +66,9 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      We specialize in social media marketing, SEO, content creation,  
+                      branding, and software development. Our goal is to help businesses  
+                      establish a strong online presence and drive measurable results.
                     </div>
                   </div>
                 </div>
@@ -96,9 +92,11 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      The timeline depends on the complexity of the project.  
+                      Digital marketing strategies are ongoing, while website  
+                      development typically takes a few weeks to a few months.  
+                      We provide a detailed timeline after discussing your  
+                      requirements.
                     </div>
                   </div>
                 </div>
@@ -122,9 +120,10 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      Our pricing varies based on the scope of your project.  
+                      We offer flexible packages for startups, small businesses,  
+                      and enterprises. Contact us for a custom quote tailored  
+                      to your needs.
                     </div>
                   </div>
                 </div>
