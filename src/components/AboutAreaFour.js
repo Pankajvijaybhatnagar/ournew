@@ -66,7 +66,7 @@ const AboutAreaFour = () => {
                   </div>
                   <div className="media-body">
                     <div className="single-progressbar">
-                      <h6>Digital Marketing & Finance</h6>
+                      <h6>Digital Marketing </h6>
                       <div className="skill">
                         <div
                           style={{ width: '80%' }}
