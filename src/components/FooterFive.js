@@ -56,9 +56,9 @@ const FooterFive = () => {
                     Registered office :21/44 BASEMENT OLD RAJENDER NAGAR  <br /> Delhi, India - 110060
                     </p>
                     <br></br>
-                    <p className="text-white mb-0">
+                    {/* <p className="text-white mb-0">
                     Collaboration with : SCO 19, Second Floor, Sector 11, Panchkula Main Landmark Near Chandigarh(Digital Orra) <br /> Zirakpur, Panchkula, Haryana 134109 
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

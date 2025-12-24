@@ -73,7 +73,7 @@ const page = () => {
     
 
       {/* Team Area Three */}
-      <TeamAreaFive />
+      {/* <TeamAreaFive /> */}
 
       {/* Work Process Four */}
       <WorkProcessSeven />
