@@ -25,7 +25,7 @@ const FooterFive = () => {
                   <div className="media-body">
                     <h5 className="text-white">Contacts Info</h5>
                     <p className="text-white mb-0">
-                    digi1xprtofficial@gmail.com
+                    Director@digi1xprt.com
                     </p>
                     {/* <p className="text-white mb-0">
                       willie.jennings@example.com
