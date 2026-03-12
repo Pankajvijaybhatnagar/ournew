@@ -1,8 +1,25 @@
+"use client"
+
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import { FaPlus } from 'react-icons/fa';
 
 const ContactAreaFour = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "18ed8226-34bf-4b48-8ff4-944757d8913e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    setResult(data.message);
+  };
   return (
     <>
       {/*================= counter area start {/*=================*/}
@@ -35,36 +52,37 @@ const ContactAreaFour = () => {
                   Take Your Business <span>to New Heights</span> with Us!
                 </h2>
                 <p className="content">
-                  Looking for expert digital marketing or software development solutions?  
-                  Our team at Digi1Xprt is here to help you grow and achieve success.  
+                  Looking for expert digital marketing or software development solutions?
+                  Our team at Digi1Xprt is here to help you grow and achieve success.
                   Reach out to us today!
                 </p>
-                <form className="mt-4">
+                <form className="mt-4" onSubmit={onSubmit}>
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Your Name" />
+                        <input type="text" placeholder="Your Name" required />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Your Contact Number" />
+                        <input type="text" placeholder="Your Contact Number" required />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <input type="text" placeholder="Your Email Address" />
+                        <input type="text" placeholder="Your Email Address" required />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="single-input-inner style-border">
-                        <textarea placeholder="How can we help you?" defaultValue={''} />
+                        <textarea placeholder="How can we help you?" defaultValue={''} required />
                       </div>
                     </div>
+                    <p>{result}</p>
                     <div className="col-12">
-                      <Link className="btn btn-border-gray mt-0" href="#">
+                      <button className="btn btn-border-gray mt-0" href="#">
                         Contact Us <FaPlus />
-                      </Link>
+                      </button>
                     </div>
                   </div>
                 </form>

@@ -83,10 +83,10 @@ const NavbarEight = () => {
             </button>
           </div>
           <div className="logo">
-            <Link className="d-none d-lg-inline-block" href="index-1">
+            <Link className="d-none d-lg-inline-block" href="/">
               <img src="assets/img/home-9/1.png" alt="img" />
             </Link>
-            <Link className="d-lg-none d-inline-block" href="index-1">
+            <Link className="d-lg-none d-inline-block" href="/">
               <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>
@@ -108,7 +108,7 @@ const NavbarEight = () => {
                 <Link href="#">Home</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/index-1">IT / Softwer Agency</Link>
+                    <Link href="//">IT / Softwer Agency</Link>
                   </li>
                   <li>
                     <Link href="/index-2">SaaS App Landing</Link>
@@ -135,10 +135,10 @@ const NavbarEight = () => {
                     <Link href="/index-9">ICO Landing</Link>
                   </li>
                   <li>
-                    <Link href="/index-10">Personal Portfolio</Link>
+                    <Link href="//0">Personal Portfolio</Link>
                   </li>
                   <li>
-                    <Link href="/index-11">SEO Service</Link>
+                    <Link href="//1">SEO Service</Link>
                   </li>
                 </ul>
               </li>
@@ -198,7 +198,7 @@ const NavbarEight = () => {
                     <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <Link href="/index-1">IT / Softwer Agency</Link>
+                          <Link href="//">IT / Softwer Agency</Link>
                         </li>
                         <li>
                           <Link href="/index-2">SaaS App Landing</Link>
@@ -225,10 +225,10 @@ const NavbarEight = () => {
                           <Link href="/index-9">ICO Landing</Link>
                         </li>
                         <li>
-                          <Link href="/index-10">Personal Portfolio</Link>
+                          <Link href="//0">Personal Portfolio</Link>
                         </li>
                         <li>
-                          <Link href="/index-11">SEO Service</Link>
+                          <Link href="//1">SEO Service</Link>
                         </li>
                       </ul>
                     </div>

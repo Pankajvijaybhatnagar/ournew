@@ -84,7 +84,7 @@ const NavBar = () => {
             </button>
           </div>
           <div className="logo">
-            <Link href="/index-1">
+            <Link href="//">
               <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>
@@ -106,7 +106,7 @@ const NavBar = () => {
                 <Link href="#">Home</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/index-1">IT / Softwer Agency</Link>
+                    <Link href="//">IT / Softwer Agency</Link>
                   </li>
                   <li>
                     <Link href="/index-2">SaaS App Landing</Link>
@@ -133,10 +133,10 @@ const NavBar = () => {
                     <Link href="/index-9">ICO Landing</Link>
                   </li>
                   <li>
-                    <Link href="/index-10">Personal Portfolio</Link>
+                    <Link href="//0">Personal Portfolio</Link>
                   </li>
                   <li>
-                    <Link href="/index-11">SEO Service</Link>
+                    <Link href="//1">SEO Service</Link>
                   </li>
                 </ul>
               </li>
@@ -196,7 +196,7 @@ const NavBar = () => {
                     <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <Link href="/index-1">IT / Softwer Agency</Link>
+                          <Link href="//">IT / Softwer Agency</Link>
                         </li>
                         <li>
                           <Link href="/index-2">SaaS App Landing</Link>
@@ -223,10 +223,10 @@ const NavBar = () => {
                           <Link href="/index-9">ICO Landing</Link>
                         </li>
                         <li>
-                          <Link href="/index-10">Personal Portfolio</Link>
+                          <Link href="//0">Personal Portfolio</Link>
                         </li>
                         <li>
-                          <Link href="/index-11">SEO Service</Link>
+                          <Link href="//1">SEO Service</Link>
                         </li>
                       </ul>
                     </div>
@@ -328,7 +328,7 @@ const NavBar = () => {
                 <img src="assets/img/icon/1.png" alt="img" />
               </span>
               <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
+              <h5>+91 98929 29551</h5>
             </a>
           </div>
         </div>

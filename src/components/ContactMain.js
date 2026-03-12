@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast, Toaster } from 'react-hot-toast';
 const ContactMain = () => {
@@ -32,6 +32,22 @@ const ContactMain = () => {
         },
       );
   };
+
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    formData.append("access_key", "18ed8226-34bf-4b48-8ff4-944757d8913e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    setResult(data.message);
+  };
   return (
     <>
       {/* ================= Contact Main start =================*/}
@@ -44,10 +60,10 @@ const ContactMain = () => {
               <div className="section-title mb-4 pb-2">
                 <h2 className="title">Direct contact us? </h2>
                 <p className="content mb-0">
-                 
+
                 </p>
               </div>
-              <form ref={form} onSubmit={sendEmail}>
+              <form ref={form} onSubmit={onSubmit}>
                 <div className="row">
                   <div className="col-md-12">
                     <div className="single-input-inner">
@@ -94,6 +110,7 @@ const ContactMain = () => {
                       />
                     </div>
                   </div>
+                  <p>{result}</p>
                   <div className="col-12 text-center">
                     <button
                       type="submit"

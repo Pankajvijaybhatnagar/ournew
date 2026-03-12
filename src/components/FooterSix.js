@@ -177,7 +177,7 @@ const FooterSix = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 align-self-center">
-                <Link href="index-1">
+                <Link href="/">
                   <img src="assets/img/home-8/logo.png" alt="img" />
                 </Link>
               </div>

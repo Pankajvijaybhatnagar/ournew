@@ -114,7 +114,7 @@ const NavbarSix = () => {
               </button>
             </div>
             <div className="logo">
-              <Link href="/index-1">
+              <Link href="//">
                 <img src="assets/img/home-8/logo.png" alt="img" />
               </Link>
             </div>
@@ -136,7 +136,7 @@ const NavbarSix = () => {
                   <Link href="#">Home</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link href="/index-1">IT / Softwer Agency</Link>
+                      <Link href="//">IT / Softwer Agency</Link>
                     </li>
                     <li>
                       <Link href="/index-2">SaaS App Landing</Link>
@@ -163,10 +163,10 @@ const NavbarSix = () => {
                       <Link href="/index-9">ICO Landing</Link>
                     </li>
                     <li>
-                      <Link href="/index-10">Personal Portfolio</Link>
+                      <Link href="//0">Personal Portfolio</Link>
                     </li>
                     <li>
-                      <Link href="/index-11">SEO Service</Link>
+                      <Link href="//1">SEO Service</Link>
                     </li>
                   </ul>
                 </li>
@@ -226,7 +226,7 @@ const NavbarSix = () => {
                       <div className=" mb-lg-4 col-lg-4 col-xl-3">
                         <ul>
                           <li>
-                            <Link href="/index-1">IT / Softwer Agency</Link>
+                            <Link href="//">IT / Softwer Agency</Link>
                           </li>
                           <li>
                             <Link href="/index-2">SaaS App Landing</Link>
@@ -253,10 +253,10 @@ const NavbarSix = () => {
                             <Link href="/index-9">ICO Landing</Link>
                           </li>
                           <li>
-                            <Link href="/index-10">Personal Portfolio</Link>
+                            <Link href="//0">Personal Portfolio</Link>
                           </li>
                           <li>
-                            <Link href="/index-11">SEO Service</Link>
+                            <Link href="//1">SEO Service</Link>
                           </li>
                         </ul>
                       </div>
