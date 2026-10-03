@@ -218,9 +218,9 @@ const FooterFour = () => {
                 <p>© AglieTech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <Link href="#">Trams &amp; Condition</Link>
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Contact Us</Link>
+                <Link href="#">Terms &amp; Conditions</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/contact">Contact Us</Link>
               </div>
             </div>
           </div>
